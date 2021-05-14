@@ -3,9 +3,8 @@ Group Project-- Exploratory data analysis (Javascript, D3, topoJSON, HTML, CSS) 
 
 ## My parts of the Project 
 - Data preprocessing: Merging datasets and cleaning the resulting dataset
-- Created Visualisation 2 (map)
-- Wrote the rationale for Visualization 2
-
+- Created The Map Visualization
+- Wrote the design rationale for Map graph
 
 ## Screenshots of Visualizations
 
