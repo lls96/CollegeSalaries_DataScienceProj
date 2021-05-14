@@ -1,0 +1,302 @@
+[
+ {
+   "Undergraduate Major": "Accounting",
+   "Starting Median Salary": 46000,
+   "Mid-Career Median Salary": 77100,
+   "Percent change from Starting to Mid-Career Salary": 67.6
+ },
+ {
+   "Undergraduate Major": "Aerospace Engineering",
+   "Starting Median Salary": 57700,
+   "Mid-Career Median Salary": 101000,
+   "Percent change from Starting to Mid-Career Salary": 75
+ },
+ {
+   "Undergraduate Major": "Agriculture",
+   "Starting Median Salary": 42600,
+   "Mid-Career Median Salary": 71900,
+   "Percent change from Starting to Mid-Career Salary": 68.8
+ },
+ {
+   "Undergraduate Major": "Anthropology",
+   "Starting Median Salary": 36800,
+   "Mid-Career Median Salary": 61500,
+   "Percent change from Starting to Mid-Career Salary": 67.1
+ },
+ {
+   "Undergraduate Major": "Architecture",
+   "Starting Median Salary": 41600,
+   "Mid-Career Median Salary": 76800,
+   "Percent change from Starting to Mid-Career Salary": 84.6
+ },
+ {
+   "Undergraduate Major": "Art History",
+   "Starting Median Salary": 35800,
+   "Mid-Career Median Salary": 64900,
+   "Percent change from Starting to Mid-Career Salary": 81.3
+ },
+ {
+   "Undergraduate Major": "Biology",
+   "Starting Median Salary": 38800,
+   "Mid-Career Median Salary": 64800,
+   "Percent change from Starting to Mid-Career Salary": 67
+ },
+ {
+   "Undergraduate Major": "Business Management",
+   "Starting Median Salary": 43000,
+   "Mid-Career Median Salary": 72100,
+   "Percent change from Starting to Mid-Career Salary": 67.7
+ },
+ {
+   "Undergraduate Major": "Chemical Engineering",
+   "Starting Median Salary": 63200,
+   "Mid-Career Median Salary": 107000,
+   "Percent change from Starting to Mid-Career Salary": 69.3
+ },
+ {
+   "Undergraduate Major": "Chemistry",
+   "Starting Median Salary": 42600,
+   "Mid-Career Median Salary": 79900,
+   "Percent change from Starting to Mid-Career Salary": 87.6
+ },
+ {
+   "Undergraduate Major": "Civil Engineering",
+   "Starting Median Salary": 53900,
+   "Mid-Career Median Salary": 90500,
+   "Percent change from Starting to Mid-Career Salary": 67.9
+ },
+ {
+   "Undergraduate Major": "Communications",
+   "Starting Median Salary": 38100,
+   "Mid-Career Median Salary": 70000,
+   "Percent change from Starting to Mid-Career Salary": 83.7
+ },
+ {
+   "Undergraduate Major": "Computer Engineering",
+   "Starting Median Salary": 61400,
+   "Mid-Career Median Salary": 105000,
+   "Percent change from Starting to Mid-Career Salary": 71
+ },
+ {
+   "Undergraduate Major": "Computer Science",
+   "Starting Median Salary": 55900,
+   "Mid-Career Median Salary": 95500,
+   "Percent change from Starting to Mid-Career Salary": 70.8
+ },
+ {
+   "Undergraduate Major": "Construction",
+   "Starting Median Salary": 53700,
+   "Mid-Career Median Salary": 88900,
+   "Percent change from Starting to Mid-Career Salary": 65.5
+ },
+ {
+   "Undergraduate Major": "Criminal Justice",
+   "Starting Median Salary": 35000,
+   "Mid-Career Median Salary": 56300,
+   "Percent change from Starting to Mid-Career Salary": 60.9
+ },
+ {
+   "Undergraduate Major": "Drama",
+   "Starting Median Salary": 35900,
+   "Mid-Career Median Salary": 56900,
+   "Percent change from Starting to Mid-Career Salary": 58.5
+ },
+ {
+   "Undergraduate Major": "Economics",
+   "Starting Median Salary": 50100,
+   "Mid-Career Median Salary": 98600,
+   "Percent change from Starting to Mid-Career Salary": 96.8
+ },
+ {
+   "Undergraduate Major": "Education",
+   "Starting Median Salary": 34900,
+   "Mid-Career Median Salary": 52000,
+   "Percent change from Starting to Mid-Career Salary": 49
+ },
+ {
+   "Undergraduate Major": "Electrical Engineering",
+   "Starting Median Salary": 60900,
+   "Mid-Career Median Salary": 103000,
+   "Percent change from Starting to Mid-Career Salary": 69.1
+ },
+ {
+   "Undergraduate Major": "English",
+   "Starting Median Salary": 38000,
+   "Mid-Career Median Salary": 64700,
+   "Percent change from Starting to Mid-Career Salary": 70.3
+ },
+ {
+   "Undergraduate Major": "Film",
+   "Starting Median Salary": 37900,
+   "Mid-Career Median Salary": 68500,
+   "Percent change from Starting to Mid-Career Salary": 80.7
+ },
+ {
+   "Undergraduate Major": "Finance",
+   "Starting Median Salary": 47900,
+   "Mid-Career Median Salary": 88300,
+   "Percent change from Starting to Mid-Career Salary": 84.3
+ },
+ {
+   "Undergraduate Major": "Forestry",
+   "Starting Median Salary": 39100,
+   "Mid-Career Median Salary": 62600,
+   "Percent change from Starting to Mid-Career Salary": 60.1
+ },
+ {
+   "Undergraduate Major": "Geography",
+   "Starting Median Salary": 41200,
+   "Mid-Career Median Salary": 65500,
+   "Percent change from Starting to Mid-Career Salary": 59
+ },
+ {
+   "Undergraduate Major": "Geology",
+   "Starting Median Salary": 43500,
+   "Mid-Career Median Salary": 79500,
+   "Percent change from Starting to Mid-Career Salary": 82.8
+ },
+ {
+   "Undergraduate Major": "Graphic Design",
+   "Starting Median Salary": 35700,
+   "Mid-Career Median Salary": 59800,
+   "Percent change from Starting to Mid-Career Salary": 67.5
+ },
+ {
+   "Undergraduate Major": "Health Care Administration",
+   "Starting Median Salary": 38800,
+   "Mid-Career Median Salary": 60600,
+   "Percent change from Starting to Mid-Career Salary": 56.2
+ },
+ {
+   "Undergraduate Major": "History",
+   "Starting Median Salary": 39200,
+   "Mid-Career Median Salary": 71000,
+   "Percent change from Starting to Mid-Career Salary": 81.1
+ },
+ {
+   "Undergraduate Major": "Hospitality & Tourism",
+   "Starting Median Salary": 37800,
+   "Mid-Career Median Salary": 57500,
+   "Percent change from Starting to Mid-Career Salary": 52.1
+ },
+ {
+   "Undergraduate Major": "Industrial Engineering",
+   "Starting Median Salary": 57700,
+   "Mid-Career Median Salary": 94700,
+   "Percent change from Starting to Mid-Career Salary": 64.1
+ },
+ {
+   "Undergraduate Major": "Information Technology (IT)",
+   "Starting Median Salary": 49100,
+   "Mid-Career Median Salary": 74800,
+   "Percent change from Starting to Mid-Career Salary": 52.3
+ },
+ {
+   "Undergraduate Major": "Interior Design",
+   "Starting Median Salary": 36100,
+   "Mid-Career Median Salary": 53200,
+   "Percent change from Starting to Mid-Career Salary": 47.4
+ },
+ {
+   "Undergraduate Major": "International Relations",
+   "Starting Median Salary": 40900,
+   "Mid-Career Median Salary": 80900,
+   "Percent change from Starting to Mid-Career Salary": 97.8
+ },
+ {
+   "Undergraduate Major": "Journalism",
+   "Starting Median Salary": 35600,
+   "Mid-Career Median Salary": 66700,
+   "Percent change from Starting to Mid-Career Salary": 87.4
+ },
+ {
+   "Undergraduate Major": "Management Information Systems (MIS)",
+   "Starting Median Salary": 49200,
+   "Mid-Career Median Salary": 82300,
+   "Percent change from Starting to Mid-Career Salary": 67.3
+ },
+ {
+   "Undergraduate Major": "Marketing",
+   "Starting Median Salary": 40800,
+   "Mid-Career Median Salary": 79600,
+   "Percent change from Starting to Mid-Career Salary": 95.1
+ },
+ {
+   "Undergraduate Major": "Math",
+   "Starting Median Salary": 45400,
+   "Mid-Career Median Salary": 92400,
+   "Percent change from Starting to Mid-Career Salary": 103.5
+ },
+ {
+   "Undergraduate Major": "Mechanical Engineering",
+   "Starting Median Salary": 57900,
+   "Mid-Career Median Salary": 93600,
+   "Percent change from Starting to Mid-Career Salary": 61.7
+ },
+ {
+   "Undergraduate Major": "Music",
+   "Starting Median Salary": 35900,
+   "Mid-Career Median Salary": 55000,
+   "Percent change from Starting to Mid-Career Salary": 53.2
+ },
+ {
+   "Undergraduate Major": "Nursing",
+   "Starting Median Salary": 54200,
+   "Mid-Career Median Salary": 67000,
+   "Percent change from Starting to Mid-Career Salary": 23.6
+ },
+ {
+   "Undergraduate Major": "Nutrition",
+   "Starting Median Salary": 39900,
+   "Mid-Career Median Salary": 55300,
+   "Percent change from Starting to Mid-Career Salary": 38.6
+ },
+ {
+   "Undergraduate Major": "Philosophy",
+   "Starting Median Salary": 39900,
+   "Mid-Career Median Salary": 81200,
+   "Percent change from Starting to Mid-Career Salary": 103.5
+ },
+ {
+   "Undergraduate Major": "Physician Assistant",
+   "Starting Median Salary": 74300,
+   "Mid-Career Median Salary": 91700,
+   "Percent change from Starting to Mid-Career Salary": 23.4
+ },
+ {
+   "Undergraduate Major": "Physics",
+   "Starting Median Salary": 50300,
+   "Mid-Career Median Salary": 97300,
+   "Percent change from Starting to Mid-Career Salary": 93.4
+ },
+ {
+   "Undergraduate Major": "Political Science",
+   "Starting Median Salary": 40800,
+   "Mid-Career Median Salary": 78200,
+   "Percent change from Starting to Mid-Career Salary": 91.7
+ },
+ {
+   "Undergraduate Major": "Psychology",
+   "Starting Median Salary": 35900,
+   "Mid-Career Median Salary": 60400,
+   "Percent change from Starting to Mid-Career Salary": 68.2
+ },
+ {
+   "Undergraduate Major": "Religion",
+   "Starting Median Salary": 34100,
+   "Mid-Career Median Salary": 52000,
+   "Percent change from Starting to Mid-Career Salary": 52.5
+ },
+ {
+   "Undergraduate Major": "Sociology",
+   "Starting Median Salary": 36500,
+   "Mid-Career Median Salary": 58200,
+   "Percent change from Starting to Mid-Career Salary": 59.5
+ },
+ {
+   "Undergraduate Major": "Spanish",
+   "Starting Median Salary": 34000,
+   "Mid-Career Median Salary": 53100,
+   "Percent change from Starting to Mid-Career Salary": 56.2
+ }
+]

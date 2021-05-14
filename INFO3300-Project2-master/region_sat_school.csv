@@ -1,0 +1,101 @@
+School Name,Region,Starting Median Salary,Mid-Career Median Salary,School Type,Average SAT Score,City,State,Latitude,Longitude
+California Institute of Technology,California,75500.0,123000.0,Engineering,1510.0,Pasadena,CA,34.1597,-118.139
+University of California-Berkeley,California,59900.0,112000.0,State,1300.0,Berkeley,CA,37.3723,-122.27600000000001
+University of California-San Diego,California,51100.0,101000.0,State,1140.0,La Jolla,CA,32.8328,117.2713
+University of California-Davis,California,52300.0,99600.0,State,1050.0,Davis,CA,38.5552,-121.7365
+University of California-Irvine,California,48300.0,96700.0,State,1060.0,Irvine,CA,33.6772,-117.7738
+University of California-Santa Barbara,California,50500.0,95000.0,Party,1140.0,Santa Barbara,CA,34.4285,-119.7202
+California State University-Fullerton,California,45700.0,87000.0,State,920.0,Fullerton,CA,33.8841,-117.9279
+San Francisco State University,California,47300.0,86400.0,State,860.0,San Francisco,CA,37.7562,-122.443
+San Diego State University,California,46200.0,85200.0,State,1000.0,San Diego,CA,32.8312,-117.1225
+University of California-Santa Cruz,California,44700.0,84100.0,State,1060.0,Santa Cruz,CA,36.9789,-122.0346
+University of California-Riverside,California,46800.0,81300.0,State,940.0,Riverside,CA,33.9381,-117.3948
+Colorado School of Mines,Western,58100.0,106000.0,Engineering,1250.0,Golden,CO,39.7406,-105.2118
+University of Arizona,Western,47500.0,86100.0,State,970.0,Tucson,AZ,32.1545,-110.8782
+University of Washington,Western,48800.0,85300.0,State,1120.0,Seattle,WA,47.6211,-122.3244
+Washington State University,Western,45300.0,84700.0,State,930.0,Pullman,WA,46.733999999999995,-117.1669
+Oregon State University,Western,45100.0,83300.0,State,990.0,Corvallis,OR,44.5697,-123.27799999999999
+University of Utah,Western,45400.0,83200.0,State,1050.0,Salt Lake City,UT,40.7777,-111.9306
+University of Nevada-Reno,Western,46500.0,82900.0,State,970.0,Reno,NV,39.5497,-119.8483
+University of Idaho,Western,44900.0,82000.0,State,930.0,Moscow,ID,46.7307,-116.9986
+University of New Mexico,Western,41600.0,81600.0,State,950.0,Albuquerque,NM,35.1053,-106.6464
+New Mexico State University,Western,44300.0,79500.0,State,820.0,Las Cruces,NM,32.3265,-106.7892
+Colorado State University,Western,44800.0,79000.0,State,1020.0,Fort Collins,CO,40.5478,-105.0656
+University of Wyoming,Western,44500.0,78700.0,State,960.0,Laramie,WY,41.3099,-105.6085
+Utah State University,Western,43800.0,78700.0,State,980.0,Logan,UT,41.74,-111.8419
+University of Oregon,Western,42200.0,78400.0,State,980.0,Eugene,OR,44.0563,-123.1173
+Idaho State University,Western,44900.0,73400.0,State,,Pocatello,ID,42.8724,-112.4646
+University of Montana,Western,37300.0,71900.0,State,950.0,Missoula,MT,46.875,-114.0214
+University of Nevada-Las Vegas,Western,45200.0,71600.0,State,900.0,Las Vegas,NV,36.2333,-115.2654
+Portland State University,Western,42600.0,70900.0,State,930.0,Portland,OR,45.5372,-122.65
+Boise State University,Western,40800.0,69500.0,State,910.0,Boise,ID,43.6007,-116.2312
+Illinois Institute of Technology,Midwestern,56000.0,97800.0,Engineering,1130.0,Chicago,IL,41.8373,-87.6862
+Michigan State University,Midwestern,46300.0,85300.0,State,990.0,East Lansing,MI,42.748000000000005,-84.4835
+Iowa State University,Midwestern,45400.0,84600.0,State,980.0,Ames,IA,42.0259,-93.6215
+Indiana University-Bloomington,Midwestern,46300.0,84000.0,Party,1060.0,Bloomington,IN,39.1637,-86.5257
+University of Iowa,Midwestern,44700.0,83900.0,Party,1020.0,Iowa City,IA,41.6559,-91.5303
+University of Kansas,Midwestern,42400.0,81600.0,State,,Lawrence,KS,38.9597,-95.2641
+Northern Illinois University,Midwestern,43600.0,80800.0,State,,DeKalb,IL,41.9313,-88.7482
+University of North Dakota,Midwestern,44000.0,80600.0,State,960.0,Grand Forks,ND,47.9218,-97.0886
+Kansas State University,Midwestern,43300.0,79000.0,State,950.0,Manhattan,KS,39.1886,-96.6046
+North Dakota State University,Midwestern,45100.0,77800.0,State,1000.0,Fargo,ND,46.8652,-96.8292
+Wayne State University,Midwestern,42800.0,76100.0,State,983.0,Detroit,MI,42.3834,-83.1024
+University of Toledo,Midwestern,43100.0,75900.0,State,920.0,Toledo,OH,41.6639,-83.5822
+Western Michigan University,Midwestern,42300.0,73800.0,State,,Kalamazoo,MI,42.2749,-85.5882
+South Dakota State University,Midwestern,41100.0,73500.0,State,890.0,Brookings,SD,44.3022,-96.7859
+Ohio University,Midwestern,42200.0,73400.0,Party,990.0,Athens,OH,39.3269,-82.0988
+Illinois State University,Midwestern,42000.0,73400.0,State,,Normal,IL,40.5218,-88.9881
+Cleveland State University,Midwestern,43500.0,73100.0,State,890.0,Cleveland,OH,41.4767,-81.6804
+Eastern Michigan University,Midwestern,40300.0,72100.0,State,910.0,Ypsilanti,MI,42.2437,-83.6205
+Bowling Green State University,Midwestern,39800.0,72100.0,State,920.0,Bowling Green,OH,41.3773,-83.65
+University of Akron,Midwestern,41100.0,70300.0,State,910.0,Akron,OH,41.0798,-81.5219
+Ball State University,Midwestern,39100.0,64500.0,State,990.0,Muncie,IN,40.1989,-85.395
+Kent State University,Midwestern,38700.0,62600.0,State,950.0,Kent,OH,41.148999999999994,-81.361
+Georgia Institute of Technology,Southern,58300.0,106000.0,Engineering,1320.0,Atlanta,GA,33.2627,-84.4224
+University of Virginia,Southern,52700.0,103000.0,State,1240.0,Charlottesville,VA,38.0375,-78.4855
+University of Maryland-College Park,Southern,52000.0,95000.0,Party,1210.0,College Park,MD,38.996,-76.9337
+University of Florida,Southern,47100.0,87900.0,Party,1180.0,Gainesville,FL,29.6804,-82.3458
+George Mason University,Southern,47800.0,86900.0,State,1060.0,Fairfax,VA,38.8531,-77.2998
+Clemson University,Southern,48400.0,86000.0,State,1150.0,Clemson,SC,34.6837,-82.8124
+University of Georgia,Southern,44100.0,86000.0,Party,1140.0,Athens,GA,33.9508,-83.3689
+Auburn University,Southern,45400.0,84700.0,State,1060.0,Auburn,AL,32.6087,-85.4899
+University of Delaware,Southern,45900.0,84500.0,State,1090.0,Newark,DE,39.6776,-75.7573
+University of Oklahoma,Southern,44700.0,82900.0,State,1060.0,Norman,OK,35.2335,-97.3471
+University of Arkansas,Southern,44100.0,82800.0,State,1010.0,Fayetteville,AR,36.0713,-94.166
+Oklahoma State University,Southern,42800.0,80700.0,State,970.0,Stillwater,OK,36.1316,-97.074
+Tennessee Technological University,Southern,46200.0,80000.0,Engineering,960.0,Cookeville,TN,36.1484,-85.5114
+University of Houston,Southern,46000.0,79900.0,State,1040.0,Houston,TX,29.7863,-95.3889
+University of Mississippi,Southern,41400.0,79700.0,Party,1000.0,University,MS,34.3656,-89.5379
+Lamar University,Southern,46500.0,79400.0,State,860.0,Beaumont,TX,30.0849,-94.1451
+Mississippi State University,Southern,44500.0,79300.0,State,990.0,Mississippi State,MS,33.4515,-88.7913
+University of Kentucky,Southern,42800.0,78300.0,State,980.0,Lexington,KY,38.0423,-84.4587
+West Virginia University,Southern,43100.0,78100.0,Party,930.0,Morgantown,WV,39.638000000000005,-79.9468
+Florida International University,Southern,43200.0,75500.0,State,1030.0,Miami,FL,25.7839,-80.2102
+University of Tennessee,Southern,43800.0,74600.0,Party,1040.0,Knoxville,TN,35.9692,-83.9496
+Georgia State University,Southern,41800.0,74000.0,State,950.0,Atlanta,GA,33.7627,-84.4224
+Florida State University,Southern,42100.0,73000.0,Party,1110.0,Tallahassee,FL,30.4551,-84.2526
+University of Central Florida,Southern,42600.0,71700.0,State,1080.0,Orlando,FL,28.4772,-81.3369
+University of South Carolina,Southern,40000.0,71700.0,State,1120.0,Columbia,SC,34.0376,-80.9037
+Florida Atlantic University,Southern,42600.0,71100.0,State,950.0,Boca Raton,FL,26.3752,-80.108
+University of South Florida,Southern,41100.0,71100.0,State,1070.0,Tampa,FL,27.9942,-82.4451
+University of Memphis,Southern,41400.0,69700.0,State,890.0,Memphis,TN,35.1046,-89.9773
+Virginia Commonwealth University,Southern,42000.0,68400.0,State,980.0,Richmond,VA,37.5295,-77.4756
+East Carolina University,Southern,40200.0,67500.0,State,970.0,Greenville,NC,35.5956,-77.3768
+Dartmouth College,Northeastern,58000.0,134000.0,Ivy League,1350.0,Hanover,NH,43.7022,72.2896
+Princeton University,Northeastern,66500.0,131000.0,Ivy League,1400.0,Princeton,NJ,40.3563,-74.6693
+Massachusetts Institute of Technology,Northeastern,72200.0,126000.0,Engineering,1460.0,Cambridge,MA,42.8759,-71.1185
+Yale University,Northeastern,59100.0,126000.0,Ivy League,1420.0,New Haven,CT,41.3112,-72.9246
+Harvard University,Northeastern,63400.0,124000.0,Ivy League,1430.0,Cambridge,MA,42.3759,-71.1185
+University of Pennsylvania,Northeastern,60900.0,120000.0,Ivy League,1380.0,Philadelphia,PA,40.0077,-75.1339
+Worcester Polytechnic Institute,Northeastern,61000.0,114000.0,Engineering,1200.0,Worcester,MA,42.2705,-71.8079
+Carnegie Mellon University,Northeastern,61800.0,111000.0,Engineering,1380.0,Pittsburgh,PA,40.4396,-79.9762
+Rensselaer Polytechnic Institute,Northeastern,61100.0,110000.0,Engineering,1280.0,Troy,NY,42.7354,-73.6751
+Cornell University,Northeastern,60300.0,110000.0,Ivy League,1330.0,Ithaca,NY,42.4442,-76.5032
+Brown University,Northeastern,56200.0,109000.0,Ivy League,1370.0,Providence,RI,41.823,-71.4187
+Columbia University,Northeastern,59400.0,107000.0,Ivy League,1430.0,New York,NY,40.6943,-73.9249
+Stevens Institute of Technology,Northeastern,60600.0,105000.0,Engineering,1260.0,Hoboken,NJ,40.7453,-74.0279
+University of Connecticut,Northeastern,48000.0,88800.0,State,1130.0,Storrs,CT,41.8045,-72.2552
+University of Rhode Island,Northeastern,43900.0,85300.0,State,990.0,Kingston,RI,41.4738,-71.5236
+Rochester Institute of Technology,Northeastern,48900.0,84600.0,Engineering,1140.0,Rochester,NY,43.168,-77.6162
+University of Vermont,Northeastern,44800.0,82700.0,State,1100.0,Burlington,VT,44.4877,-73.2314
+University of New Hampshire,Northeastern,41800.0,78300.0,Party,990.0,Durham,NH,43.134,70.9264

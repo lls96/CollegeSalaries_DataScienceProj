@@ -1,0 +1,101 @@
+,displayName,sat-avg,city,state,lat,long
+0,Princeton University,1400.0,Princeton,NJ,40.3563,-74.6693
+1,Harvard University,1430.0,Cambridge,MA,42.3759,-71.1185
+3,Yale University,1420.0,New Haven,CT,41.3112,-72.9246
+4,Columbia University,1430.0,New York,NY,40.6943,-73.9249
+5,Massachusetts Institute of Technology,1460.0,Cambridge,MA,42.3759,-71.1185
+7,University of Pennsylvania,1380.0,Philadelphia,PA,40.0077,-75.1339
+9,California Institute of Technology,1510.0,Pasadena,CA,34.1597,-118.139
+10,Dartmouth College,1350.0,Hanover,NH,43.7022,72.2896
+13,Brown University,1370.0,Providence,RI,41.823,-71.4187
+14,Cornell University,1330.0,Ithaca,NY,42.4442,-76.5032
+21,University of California-Berkeley,1300.0,Berkeley,CA,37.8723,-122.276
+24,Carnegie Mellon University,1380.0,Pittsburgh,PA,40.4396,-79.9762
+25,University of Virginia,1240.0,Charlottesville,VA,38.0375,-78.4855
+34,Georgia Institute of Technology,1320.0,Atlanta,GA,33.7627,-84.4224
+38,University of California-Santa Barbara,1140.0,Santa Barbara,CA,34.4285,-119.7202
+41,Rensselaer Polytechnic Institute,1280.0,Troy,NY,42.7354,-73.6751
+42,University of California-Irvine,1060.0,Irvine,CA,33.6772,-117.7738
+43,University of California-San Diego,1140.0,La Jolla,CA,32.8328,117.2713
+44,University of Florida,1180.0,Gainesville,FL,29.6804,-82.3458
+47,University of California-Davis,1050.0,Davis,CA,38.5552,-121.7365
+54,University of Georgia,1140.0,Athens,GA,33.9508,-83.3689
+57,University of Connecticut,1130.0,Storrs,CT,41.8045,-72.2552
+59,University of Washington,1120.0,Seattle,WA,47.6211,-122.3244
+64,University of Maryland-College Park,1210.0,College Park,MD,38.996,-76.9337
+65,Worcester Polytechnic Institute,1200.0,Worcester,MA,42.2705,-71.8079
+66,Clemson University,1150.0,Clemson,SC,34.6837,-82.8124
+70,Stevens Institute of Technology,1260.0,Hoboken,NJ,40.7453,-74.0279
+75,Colorado School of Mines,1250.0,Golden,CO,39.7406,-105.2118
+79,University of Iowa,1020.0,Iowa City,IA,41.6559,-91.5303
+81,Florida State University,1110.0,Tallahassee,FL,30.4551,-84.2526
+82,Michigan State University,990.0,East Lansing,MI,42.748,-84.4835
+84,University of California-Santa Cruz,1060.0,Santa Cruz,CA,36.9789,-122.0346
+85,University of Delaware,1090.0,Newark,DE,39.6776,-75.7573
+89,Indiana University-Bloomington,1060.0,Bloomington,IN,39.1637,-86.5257
+96,Rochester Institute of Technology,1140.0,Rochester,NY,43.168,-77.6162
+100,University of Oklahoma,1060.0,Norman,OK,35.2335,-97.3471
+101,University of Vermont,1100.0,Burlington,VT,44.4877,-73.2314
+102,Auburn University,1060.0,Auburn,AL,32.6087,-85.4899
+103,Illinois Institute of Technology,1130.0,Chicago,IL,41.8373,-87.6862
+105,University of New Hampshire,990.0,Durham,NH,43.1340,70.9264
+106,University of Oregon,980.0,Eugene,OR,44.0563,-123.1173
+107,University of South Carolina,1120.0,Columbia,SC,34.0376,-80.9037
+108,University of Tennessee,1040.0,Knoxville,TN,35.9692,-83.9496
+113,University of Utah,1050.0,Salt Lake City,UT,40.7777,-111.9306
+115,Iowa State University,980.0,Ames,IA,42.0259,-93.6215
+117,University of Kansas,,Lawrence,KS,38.9597,-95.2641
+124,Colorado State University,1020.0,Fort Collins,CO,40.5478,-105.0656
+127,University of Arizona,970.0,Tucson,AZ,32.1545,-110.8782
+128,University of California-Riverside,940.0,Riverside,CA,33.9381,-117.3948
+136,University of Arkansas,1010.0,Fayetteville,AR,36.0713,-94.166
+138,University of Kentucky,980.0,Lexington,KY,38.0423,-84.4587
+139,George Mason University,1060.0,Fairfax,VA,38.8531,-77.2998
+141,San Diego State University,1000.0,San Diego,CA,32.8312,-117.1225
+142,University of South Florida,1070.0,Tampa,FL,27.9942,-82.4451
+143,Washington State University,930.0,Pullman,WA,46.734,-117.1669
+144,Kansas State University,950.0,Manhattan,KS,39.1886,-96.6046
+145,Oregon State University,990.0,Corvallis,OR,44.5697,-123.278
+148,University of Mississippi,1000.0,University,MS,34.3656,-89.5379
+152,Ohio University,990.0,Athens,OH,39.3269,-82.0988
+155,Oklahoma State University,970.0,Stillwater,OK,36.1316,-97.074
+157,University of Rhode Island,990.0,Kingston,RI,41.4738,-71.5236
+159,Illinois State University,,Normal,IL,40.5218,-88.9881
+170,Mississippi State University,990.0,Mississippi State,MS,33.4515,-88.7913
+172,University of Central Florida,1080.0,Orlando,FL,28.4772,-81.3369
+173,University of Idaho,930.0,Moscow,ID,46.7307,-116.9986
+174,Virginia Commonwealth University,980.0,Richmond,VA,37.5295,-77.4756
+175,Kent State University,950.0,Kent,OH,41.149,-81.361
+185,University of Wyoming,960.0,Laramie,WY,41.3099,-105.6085
+187,Ball State University,990.0,Muncie,IN,40.1989,-85.395
+190,West Virginia University,930.0,Morgantown,WV,39.638,-79.9468
+193,University of Houston,1040.0,Houston,TX,29.7863,-95.3889
+194,University of New Mexico,950.0,Albuquerque,NM,35.1053,-106.6464
+195,University of North Dakota,960.0,Grand Forks,ND,47.9218,-97.0886
+197,New Mexico State University,820.0,Las Cruces,NM,32.3265,-106.7892
+198,North Dakota State University,1000.0,Fargo,ND,46.8652,-96.8292
+201,Bowling Green State University,920.0,Bowling Green,OH,41.3773,-83.65
+202,California State University-Fullerton,920.0,Fullerton,CA,33.8841,-117.9279
+205,University of Nevada-Reno,970.0,Reno,NV,39.5497,-119.8483
+207,East Carolina University,970.0,Greenville,NC,35.5956,-77.3768
+213,University of Montana,950.0,Missoula,MT,46.875,-114.0214
+214,Western Michigan University,,Kalamazoo,MI,42.2749,-85.5882
+215,Florida International University,1030.0,Miami,FL,25.7839,-80.2102
+217,South Dakota State University,890.0,Brookings,SD,44.3022,-96.7859
+221,Utah State University,980.0,Logan,UT,41.74,-111.8419
+226,Georgia State University,950.0,Atlanta,GA,33.7627,-84.4224
+229,Wayne State University,983.0,Detroit,MI,42.3834,-83.1024
+233,Boise State University,910.0,Boise,ID,43.6007,-116.2312
+236,Cleveland State University,890.0,Cleveland,OH,41.4767,-81.6804
+237,Eastern Michigan University,910.0,Ypsilanti,MI,42.2437,-83.6205
+239,Florida Atlantic University,950.0,Boca Raton,FL,26.3752,-80.108
+246,Lamar University,860.0,Beaumont,TX,30.0849,-94.1451
+254,Northern Illinois University,,DeKalb,IL,41.9313,-88.7482
+257,Portland State University,930.0,Portland,OR,45.5372,-122.65
+261,San Francisco State University,860.0,San Francisco,CA,37.7562,-122.443
+264,Tennessee Technological University,960.0,Cookeville,TN,36.1484,-85.5114
+273,University of Akron,910.0,Akron,OH,41.0798,-81.5219
+278,University of Memphis,890.0,Memphis,TN,35.1046,-89.9773
+281,University of Nevada-Las Vegas,900.0,Las Vegas,NV,36.2333,-115.2654
+293,University of Toledo,920.0,Toledo,OH,41.6639,-83.5822
+304,Idaho State University,,Pocatello,ID,42.8724,-112.4646

@@ -1,0 +1,431 @@
+<html>
+
+<head>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://d3js.org/topojson.v3.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .gridlines line {
+      stroke: #ececec;
+    }
+
+    .gridlines .domain {
+      stroke: none;
+    }
+
+    #type_legend, #major_legend {
+      margin-left: 5%;
+      margin-top: 2%;
+    }
+
+    #type_legend2 {
+      margin-left: 5%;
+      margin-top: 2%;
+    }
+
+    #dropdown {
+      margin-left: 5%;
+      margin-top: 2%;
+    }
+
+    #dropdown select {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    #sal_type {
+      margin: 0% 0 0 1.5%;
+    }
+
+    #salary_legend {
+      margin-top: 20px;
+    }
+
+    #mid_sal,
+    #start_sal {
+      display: flex;
+    }
+
+    #start,
+    #mid {
+      width: 15px;
+      height: 15px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+
+    #start {
+      flex: 4%;
+      background: #093D7C;
+      margin-left: 71%;
+    }
+
+    .li_body {
+      margin-left: 20px;
+    }
+
+    #mid {
+      flex: 4%;
+      background: #F1803A;
+      margin-left: 71%;
+    }
+
+    #start_sal span,
+    #mid_sal span {
+      flex: 96%;
+      padding-left: 2px;
+      font-size: 12px;
+    }
+
+    #instruction {
+      margin-left: 5%;
+      margin-top: 2%;
+    }
+
+    #filter-name span, #filter-name-maj span {
+      margin-left: 45%;
+    }
+
+    #filter-name-map div {
+      margin-left: 30%;
+      padding-top: 5%;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    h2,
+    .title {
+      margin: 2% 5%;
+      color: #093D7C;
+    }
+
+    .title {
+      text-align: center;
+      background-color: #343d52;
+      color: #ffffff;
+      padding: 8px 25px;
+      border: 2px solid;
+      border-color: #343d52;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+
+    .indent {
+      margin: 2% 5%;
+      font-size: 16px;
+    }
+
+    #sch-type,
+    #major {
+      color: #343d52;
+      padding: 8px 25px;
+      border: 2px solid;
+      border-color: #343d52;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    #sch-type {
+      margin: 10px 10px 10px 5%;
+    }
+
+    #major {
+      margin: 10px 10px 10px 0;
+    }
+
+    .major-graph {
+      display: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    div {
+      opacity: 0;
+      animation: fadein 1s forwards;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Graduate', sans-serif;
+    }
+
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    #map_div {
+      display: flex;
+    }
+
+    #map_div ul {
+      list-style: none;
+    }
+
+    .li_title {
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      visibility: hidden;
+    }
+
+    .li_body {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    #SchoolName {
+      margin: 0;
+    }
+
+    #all-school-info {
+      margin-top: 5%;
+    }
+
+    #map_header {
+      text-align: center;
+      margin-top: 5%;
+    }
+
+    .ital {
+      font-style: italic;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1 class="center">WHERE DOES IT PAY TO ATTEND COLLEGE?</h1>
+
+  <p class="indent">Wondering which college to pick so you can earn those big bucks &#x1F4B0; ? Want to know if your SAT
+    score is good enough to get you into one of the "elite" schools &#x1f393; ? Scratching your head over whether
+    majoring in Philosophy is worth it &#x1f914; ?</p>
+
+  <p class="indent">We've all been there. We feel you. That's why we've made this interactive page based on data
+    collected by the Wall Street Journal and PayScale Inc. Picking a college and a major is hard but we hope these
+    charts make those decisions a little bit easier. Good luck! &#128077;</p>
+
+  <h2>SALARY INCREASE BY TYPE OF COLLEGE OR MAJOR</h2>
+
+  <div id="viz1-opt">
+    <span id="sch-type" style="font-family: 'Graduate', sans-serif;">Explore salaries by school type</span>
+    <span id="major" style="font-family: 'Graduate', sans-serif;">Explore salaries by major</span>
+  </div>
+
+  <p class="indent type-graph">Party school? Engineering Institute? State School? You already know your starting salary
+    will be different depending on what type of school you attend. See where your school ranks!</p>
+
+  <p class="indent type-graph">Ten years out, graduates of Ivy League schools earned 99% more than they did at
+    graduation. Party school graduates saw an 85% increase in salary by the middle of their careers. Engineering school
+    graduates did not see such high increases in pay, earning only 76% more 10 years out of school than when they joined
+    the workforce.</p>
+
+  <p class="indent major-graph">The battle is far from over even after you painstakingly settle on a school. Now the
+    question is, "What should I major in?"</p>
+
+  <p class="indent major-graph">Your parents might have worried when you chose Philosophy or International Relations as
+    a major. But do those majors really not earn as much? Do their salaries just start off small but increase later? Or
+    do philosophers consistently earn less than their engineer counterparts? Find out for yourself!</p>
+
+  <p class="indent major-graph">A year-long survey by PayScale, Inc. of 1.2 million people with only a bachelor's degree
+    shows that graduates in philosophy, international relations earned 103.5% and 97.8% more respectively than what they
+    started with. This increase was seen about 10 years post-commencement. Majors that didn't show as much salary growth
+    include Nursing and Information Technology.</p>
+
+  <h3 class="type-graph title">SALARY INCREASE BY TYPE OF COLLEGE</h3>
+  <h3 class="major-graph title">SALARY INCREASE BY MAJOR</h3>
+  <!-- Divs for legends -->
+  <h3 id="instruction" class="type-graph">Select Type of School</h3>
+  <h3 id="instruction" class="major-graph">Select Percentage Salary Increase</h3>
+  
+  <div id="type_legend" class="legend type-graph"></div>
+  <div id="major_legend" class="legend major-graph"></div>
+
+  <!-- Sorting filters for type graph -->
+  <div id="dropdown" class="type-graph">
+    <select id="sort-select" style="width:400px; height:40px; padding-left: 2px; border-radius: 10px;">
+      <option value="default" id="default" style="font-size: 13px;" selected>-- Select sort --</option>
+      <option value="sort-start-asc" style="font-size: 13px;">Sort Starting Salaries in ascending order</option>
+      <option value="sort-start-desc" style="font-size: 13px;">Sort Starting Salaries in descending order</option>
+      <option value="sort-mid-asc" style="font-size: 13px;">Sort Mid-Career Salaries in ascending order</option>
+      <option value="sort-mid-desc" style="font-size: 13px;">Sort Mid-Career Salaries in descending order</option>
+    </select>
+  </div>
+
+  <div id="salary_legend" class="legend type-graph">
+
+    <div id="start_sal">
+      <div id="start"></div>
+      <span style="font-size:13px;">Starting Median Salary</span>
+    </div>
+
+    <div id="mid_sal">
+      <div id="mid"></div>
+      <span style="font-size:13px;">Mid-Career Median Salary</span>
+    </div>
+
+  </div>
+
+  <div id="filter-name" class="type-graph">
+    <span style="font-size: 19px; font-family: 'Graduate', sans-serif;">All schools</span>
+  </div>
+
+      <!-- Sorting filters for major graph -->
+      <div id="dropdown" class="major-graph">
+        <select id="sort-select1" style="width:400px; height:40px; padding-left: 2px; border-radius: 10px;">
+          <option value="default" id="default1" style="font-size: 13px;" selected>-- Select sort --</option>
+          <option value="sort-start-asc1" style="font-size: 13px;">Sort Starting Salaries in ascending order</option>
+          <option value="sort-start-desc1" style="font-size: 13px;">Sort Starting Salaries in descending order</option>
+          <option value="sort-mid-asc1" style="font-size: 13px;">Sort Mid-Career Salaries in ascending order</option>
+          <option value="sort-mid-desc1" style="font-size: 13px;">Sort Mid-Career Salaries in descending order</option>
+          <option value="sort-incr-asc1" style="font-size: 13px;">Sort Salary Increases in ascending order</option>
+          <option value="sort-incr-desc1" style="font-size: 13px;">Sort Salary Increases in descending order</option>
+        </select>
+      </div>  
+
+  <div id="salary_legend" class="legend major-graph">
+
+    <div id="start_sal">
+      <div id="start"></div>
+      <span style="font-size:13px;">Starting Median Salary</span>
+    </div>
+
+    <div id="mid_sal">
+      <div id="mid"></div>
+      <span style="font-size:13px;">Mid-Career Median Salary</span>
+    </div>
+
+  </div>
+
+  <div id="filter-name-maj" class="major-graph">
+    <span style="font-size: 19px; font-family: 'Graduate', sans-serif;">All majors</span>
+  </div>
+
+
+  <script>
+    d3.select("#sch-type")
+      .on("mouseover", function () {
+        d3.select(this)
+          .style("background-color", "#343d52")
+          .style("color", "#ffffff");
+      })
+      .on("mouseout", function () {
+        d3.select(this)
+          .style("background-color", "#ffffff")
+          .style("color", this.style.borderColor);
+      }); // button mouseover and mouseout behaviour
+
+    d3.select("#major")
+      .on("mouseover", function () {
+        d3.select(this)
+          .style("background-color", "#343d52")
+          .style("color", "#ffffff");
+      })
+      .on("mouseout", function () {
+        d3.select(this)
+          .style("background-color", "#ffffff")
+          .style("color", this.style.borderColor);
+      }); // button mouseover and mouseout behaviour
+
+    d3.select("#sch-type")
+      .on("click", function () {
+        d3.selectAll(".type-graph").style("display", "block");
+        d3.selectAll(".major-graph").style("display", "none");
+        d3.select("svg#sal_major").attr("display", "none");
+        d3.select("svg#sal_type").attr("display", "block");
+      }); //dynamically changing the information and graph displayed and script used
+
+    d3.select("#major")
+      .on("click", function () {
+        d3.selectAll(".major-graph").style("display", "block");
+        d3.selectAll(".type-graph").style("display", "none");
+        d3.select("svg#sal_type").attr("display", "none");
+        d3.select("svg#sal_major").attr("display", "block");
+        d3.select("script#viz2-script").remove();
+        var script_elem2 = document.createElement("script");
+        script_elem2.id = "viz2-script";
+        script_elem2.src = "scripts/viz2.js";
+        document.body.append(script_elem2);
+
+      }); //dynamically changing the information and graph displayed and script used
+  </script>
+  <script id="viz1-script" type="text/javascript" src="scripts/viz1.js"></script>
+
+  <!-- Script for viz2 (salary by majors) goes here -->
+  <div id="append-here"></div> 
+
+  <!-- Information for map graph -->
+  <h2 id="map_header" class="title">SALARIES AND SAT SCORES OF SCHOOLS BY LOCATION</h2>
+  <p class="indent">Do schools in certain regions of the country have higher SAT requirements and lead to higher-paid
+    jobs? Find out through this interactive map!</p>
+  <p class="indent">According to the PayScale Inc. survey, attending college in the Midwest seems to lead to the lowest
+    salaries, both at graduation and at mid-career. Graduates of schools in the Northeast and California fared the best.
+  </p>
+
+  <p class="indent ital">Hover over a pin to reveal statistics about the the school.</p>
+  <h3 id="instruction" class="type-graph">Select Region</h3>
+
+  <div id="type_legend2" class="legend type-graph2"></div>
+
+  <div id="filter-name-map" class="type-graph2">
+    <div style="font-size: 22px; font-family: 'Graduate', sans-serif;">All regions</div>
+  </div>
+
+
+  <!-- Div for displaying individual university statistics -->
+  <div id="map_div">
+    <svg id="map" width="1000" height="600"></svg>
+    <div id="all-school-info">
+      <h2 id="SchoolName"></h2>
+      <table>
+        <tr class="info">
+          <td class="li_title">City: </td>
+          <td class="li_body" id="city"></td>
+        </tr>
+        <tr class="info">
+          <td class="li_title">State: </td>
+          <td class="li_body" id="state"></td>
+        </tr>
+        <tr class="info">
+          <td class="li_title">School Type: </td>
+          <td class="li_body" id="School_Type"></td>
+        </tr>
+        <tr class="info">
+          <td class="li_title">Average SAT Score:</td>
+          <td class="li_body" id="SAT"></td>
+        </tr>
+        <tr class="info">
+          <td class="li_title">Starting Median Salary:</td>
+          <td class="li_body" id="startingSal"></td>
+        </tr>
+        <tr class="info">
+          <td class="li_title">Mid-Career Median Salary: </td>
+          <td class="li_body" id="midSal"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <script id="vizMap" type="text/javascript" src="scripts/mapviz.js"></script>
+
+</body>
+
+</html>
