@@ -7,8 +7,8 @@ Group Project-- Exploratory data analysis (Python, Javascript, D3, topoJSON, HTM
 - Wrote the design rationale for Map graph
 
 ## Screenshots of Visualizations
-(https://github.com/lls96/CollegeSalaries_DataScienceProj/blob/main/Map%20Visualization.png?)
-(https://github.com/lls96/CollegeSalaries_DataScienceProj/blob/main/PlottedBar%20Visualization.png?)
+![alt text](https://github.com/lls96/CollegeSalaries_DataScienceProj/blob/main/Map%20Visualization.png?)
+![alt text](https://github.com/lls96/CollegeSalaries_DataScienceProj/blob/main/PlottedBar%20Visualization.png?)
 
 
 
